@@ -246,7 +246,7 @@ export const workExperiences = [
     name: 'Volunteer Organization (China)',
     pos: 'Comprehensive Volunteer',
     duration: 'Aug 2018 - Aug 2019',
-    title: "Popularized legal knowledge on self-protection for underage girls, women's rights, and vulnerable groups. Integrated big data to list volunteer services. Managed office income and payments via ERP.",
+    title: "Popularized legal knowledge on self-protection for underage girls, women rights, and vulnerable groups. Integrated big data to list volunteer services. Managed office income and payments via ERP.",
     icon: '/assets/framer.svg',
     animation: 'victory',
   },
