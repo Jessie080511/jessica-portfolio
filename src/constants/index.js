@@ -252,7 +252,7 @@ export const workExperiences = [
   },
   {
     id: 2,
-    name: 'ByteDance Co., Ltd (China)',
+    name: 'ByteDance (China)',
     pos: 'Content Analyst',
     duration: 'Mar 2020 - Dec 2020',
     title: "Responsible for content risk and quality audits on Toutiao. Provided feedback to enhance user experience and optimize audit rules. Summarized and analyzed data in tables.",
