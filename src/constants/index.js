@@ -243,28 +243,36 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    name: 'Volunteer Organization (China)',
+    pos: 'Comprehensive Volunteer',
+    duration: 'Aug 2018 - Aug 2019',
+    title: "Popularized legal knowledge on self-protection for underage girls, women's rights, and vulnerable groups. Integrated big data to list volunteer services. Managed office income and payments via ERP.",
     icon: '/assets/framer.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'ByteDance Co., Ltd (China)',
+    pos: 'Content Analyst',
+    duration: 'Mar 2020 - Dec 2020',
+    title: "Responsible for content risk and quality audits on Toutiao. Provided feedback to enhance user experience and optimize audit rules. Summarized and analyzed data in tables.",
+    icon: '/assets/bytedance.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+    name: 'Dazhulin Xinghui Community',
+    pos: 'Data Analyst',
+    duration: 'Dec 2020 - Apr 2023',
+    title: "Managed detailed tables using office software applications. Conducted big data manipulation, analysis, and comparison. Operated the ERP system. Oversaw department finances and accounting.
+
+
+
+
+
+
+
+.",
     icon: '/assets/notion.svg',
     animation: 'salute',
   },
