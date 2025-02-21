@@ -247,7 +247,7 @@ export const workExperiences = [
     pos: 'Comprehensive Volunteer',
     duration: 'Aug 2018 - Aug 2019',
     title: "Popularized legal knowledge on self-protection for underage girls, women rights, and vulnerable groups. Integrated big data to list volunteer services. Managed office income and payments via ERP.",
-    icon: '/assets/framer.svg',
+    icon: '/assets/volunteer.png',
     animation: 'victory',
   },
   {
@@ -265,7 +265,7 @@ export const workExperiences = [
     pos: 'Data Analyst',
     duration: 'Dec 2020 - Apr 2023',
     title: "Managed detailed tables using office software applications. Conducted big data manipulation, analysis, and comparison. Operated the ERP system. Oversaw department finances and accounting.",
-    icon: '/assets/notion.svg',
+    icon: '/assets/community.png',
     animation: 'salute',
   },
 ];
