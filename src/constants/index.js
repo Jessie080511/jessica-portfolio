@@ -83,7 +83,7 @@ export const myProjects = [
     subdesc:
       'Utilized Selenium WebDriver for browser automation, TestNG for test sequencing, and Cucumber for behavior-driven development (BDD). Designed structured test cases to verify search, filtering, and navigation functionalities, ensuring robust e-commerce automation testing.',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/bestbuy.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -99,17 +99,12 @@ export const myProjects = [
       {
         id: 2,
         name: 'Selenium',
-        path: 'assets/selenium.png',
+        path: 'assets/Selenium.png',
       },
       {
         id: 3,
         name: 'TestNg',
         path: '/assets/TN.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
       },
     ],
   },
