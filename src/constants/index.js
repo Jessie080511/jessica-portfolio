@@ -67,13 +67,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Mangodb',
+        path: '/assets/mangodb.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Deepseek',
+        path: '/assets/deepseek.png',
       },
     ],
   },
