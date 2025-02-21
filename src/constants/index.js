@@ -264,15 +264,7 @@ export const workExperiences = [
     name: 'Dazhulin Xinghui Community',
     pos: 'Data Analyst',
     duration: 'Dec 2020 - Apr 2023',
-    title: "Managed detailed tables using office software applications. Conducted big data manipulation, analysis, and comparison. Operated the ERP system. Oversaw department finances and accounting.
-
-
-
-
-
-
-
-.",
+    title: "Managed detailed tables using office software applications. Conducted big data manipulation, analysis, and comparison. Operated the ERP system. Oversaw department finances and accounting.",
     icon: '/assets/notion.svg',
     animation: 'salute',
   },
