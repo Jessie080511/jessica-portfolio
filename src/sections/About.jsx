@@ -25,8 +25,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Jessica Yan</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                I am a graduate student majoring in computer science and I am currently looking for a job. I have 4 years of relevant work experience and have had two project experiences. I am good at front-end and database management, and I am also good at using financial software.
               </p>
             </div>
           </div>
@@ -39,8 +38,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                I am good at applying various technologies, including React.js, Vite, Node.js,
+HTML5/CSS3, REST API, Selenium, MySQL, PostgresQL, OpenAl api, Git, IntelliJ, VSCode, AWS, Google Cloud Platform.
               </p>
             </div>
           </div>
@@ -63,7 +62,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in United States and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -76,8 +75,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                In my previous work experience, I developed a strong interest in code. After a few years of self-study, I studied for a master's degree in computer science and systematically mastered a lot of knowledge. Now I want to continue to delve deeper and apply what I have learned to work and life.
               </p>
             </div>
           </div>
