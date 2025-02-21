@@ -78,11 +78,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Best Buy Automation Testing Project',
+    desc: 'Developed an automated testing framework for Best Buy’s product search and filtering. Implemented a data-driven approach using Cucumber to enhance efficiency, accuracy, and test repeatability.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Utilized Selenium WebDriver for browser automation, TestNG for test sequencing, and Cucumber for behavior-driven development (BDD). Designed structured test cases to verify search, filtering, and navigation functionalities, ensuring robust e-commerce automation testing.',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -94,18 +93,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Cucumber',
+        path: '/assets/cucumber.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Selenium',
+        path: 'assets/selenium.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'TestNg',
+        path: '/assets/TN.png',
       },
       {
         id: 4,
