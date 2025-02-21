@@ -41,13 +41,13 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Nail Code - AI-Powered E-Commerce Platform',
+    desc: 'An AI-driven e-commerce website specializing in customized nail art recommendations. Features an AI chatbot that enhances user experience by providing real-time customer support and personalized product suggestions.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+      'Built with React for dynamic UI, Redux Toolkit for efficient state management, and Tailwind CSS for responsive styling. Utilized MongoDB for flexible data storage and DeepSeek LLM to power the AI chatbot, enabling accurate, context-aware interactions.',
     href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/Nail.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
