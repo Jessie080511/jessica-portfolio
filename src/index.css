@@ -62,8 +62,9 @@ body {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border border-black-300 bg-[#B5C4B1] rounded-lg sm:p-7 p-4 flex flex-col gap-5;
-}
+    .grid-container {
+    @apply bg-[#D4DBCE] border border-[#BECBB9] rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+  }
 
   .grid-headtext {
     @apply text-xl font-semibold mb-2 text-white font-generalsans;
