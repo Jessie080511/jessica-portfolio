@@ -62,7 +62,6 @@ body {
 
   /* about section */
   .grid-container {
-    .grid-container {
     @apply bg-[#D4DBCE] border border-[#BECBB9] rounded-lg sm:p-7 p-4 flex flex-col gap-5;
   }
 
