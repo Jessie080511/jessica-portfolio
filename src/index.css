@@ -9,8 +9,8 @@
 }
 
 body {
-  background: #B5C4B1;
-  font-family: 'General Sans', sans-serif;
+    background-color: #DADADA; /* 冷银灰 */
+    font-family: 'General Sans', sans-serif;
 }
 
 @layer utilities {
