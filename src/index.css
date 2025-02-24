@@ -62,7 +62,7 @@ body {
 
   /* about section */
   .grid-container {
-    @apply bg-[#D4DBCE] border border-[#BECBB9] rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply bg-[#B5C4B1] border-[#8B9A8C] rounded-lg p-4;
   }
 
   .grid-headtext {
@@ -74,7 +74,7 @@ body {
   }
 
   .grid-container {
-    @apply bg-[#D4DBCE] border border-[#BECBB9] rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply bg-[#B5C4B1] border-[#8B9A8C] rounded-lg p-4;
   }
 
   /* projects section  */
