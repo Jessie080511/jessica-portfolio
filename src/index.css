@@ -91,8 +91,8 @@ body {
     @apply bg-[#C8B7D2] border-[#B8A1C4] shadow-md rounded-lg p-6;
   }
 
-  .client-review {
-    @apply rounded-lg md:p-10 p-5 col-span-1 bg-black-300 bg-opacity-50;
+  .grid-container {
+    @apply bg-[#D1C6D8] border-[#BDAFCB] shadow-md rounded-lg p-6;
   }
 
   .client-content {
