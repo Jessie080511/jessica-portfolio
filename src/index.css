@@ -88,11 +88,7 @@ body {
 
   /* clients section */
   .grid-container {
-    @apply bg-[#C8B7D2] border-[#B5A3C4] shadow-md rounded-lg p-6;
-  }
-
-  .grid-container {
-    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
+    @apply bg-[#DED1D1] border-[#D1C6C6] shadow-md rounded-lg p-6;
   }
 
   .client-content {
