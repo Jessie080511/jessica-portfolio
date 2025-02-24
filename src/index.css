@@ -92,7 +92,7 @@ body {
   }
 
   .grid-container {
-    @apply bg-[#D1C6D8] border-[#BDAFCB] shadow-md rounded-lg p-6;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .client-content {
