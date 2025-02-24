@@ -87,7 +87,7 @@ body {
   }
 
   /* clients section */
-  ..grid-container {
+  .grid-container {
     @apply bg-[#E8C6C6] border-[#DFC2C3] shadow-md rounded-lg p-6;
   }
 
