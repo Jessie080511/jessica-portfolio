@@ -41,7 +41,7 @@ const Cube = ({ ...props }) => {
           geometry={nodes.Cube.geometry}
           material={nodes.Cube.material}
           onPointerEnter={() => setHovered(true)}>
-          <meshMatcapMaterial matcap={texture} toneMapped={false} />
+          <meshStandardMaterial color="#C8A8A8" metalness={0.5} roughness={0.3} />
         </mesh>
       </group>
     </Float>
