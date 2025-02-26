@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #D8CACA; /* 冷银灰 */
+    background-color: #E3D6D6; 
     font-family: 'General Sans', sans-serif;
 }
 
@@ -61,8 +61,8 @@ body {
   }
 
   /* about section */
-  .grid-container {
-    @apply bg-[#F4D7D7] border-[#DFC2C3] rounded-lg p-4;
+  .grid-container, .container {
+    @apply bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-6;
   }
 
   .grid-headtext {
@@ -73,8 +73,8 @@ body {
     @apply text-[#afb0b6] text-base font-generalsans;
   }
 
-  .grid-container {
-    @apply bg-[#F4D7D7] border-[#DFC2C3] rounded-lg p-4;
+  .grid-container, .container {
+    @apply bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-6;
   }
 
   /* projects section  */
@@ -87,8 +87,8 @@ body {
   }
 
   /* clients section */
-  .grid-container {
-    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
+  .grid-container, .container {
+    @apply bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-6;
   }
 
   .client-content {
