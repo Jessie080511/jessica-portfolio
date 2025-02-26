@@ -24,6 +24,6 @@ const Target = (props) => {
       <meshStandardMaterial color="#F4D27A" metalness={0.3} roughness={0.6} />
     </mesh>
   );
-
+};
 
 export default Target;
