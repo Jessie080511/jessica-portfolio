@@ -102,22 +102,22 @@ body {
 
   .work-canvas {
     @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
-  }
+  }  
 
   .work-content {
     @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .work-content_container {
-    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-black-300 rounded-lg sm:px-5 px-2.5;
+    @apply grid grid-cols-[auto_1fr] items-start gap-5 transition-all ease-in-out duration-500 cursor-pointer hover:bg-[#D8CACA] rounded-lg sm:px-5 px-2.5;
   }
 
   .work-content_logo {
-    @apply w-16 h-16 bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg flex justify-center items-center;
+    @apply w-16 h-16 bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg flex justify-center items-center object-contain;
   }
 
   .work-content_bar {
-    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg;
   }
 
   /* contact section */
