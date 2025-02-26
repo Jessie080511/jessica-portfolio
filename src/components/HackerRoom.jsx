@@ -19,6 +19,8 @@ export function HackerRoom(props) {
       </mesh>
       <mesh geometry={nodes.screen_glass_glass_0.geometry} material={materials.glass} />
       <mesh geometry={nodes.table_table_mat_0_1.geometry} material={materials.table_mat} />
+        <meshStandardMaterial color="#B5C4B1" />
+      </mesh>
       <mesh geometry={nodes.table_table_mat_0_2.geometry} material={materials.computer_mat}>
         <meshMatcapMaterial map={monitortxt} />
       </mesh>
