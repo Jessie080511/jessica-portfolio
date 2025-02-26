@@ -113,7 +113,8 @@ body {
   }
 
   .work-content_logo {
-    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
+    .work-content_logo {
+    @apply w-16 h-16 bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg flex justify-center items-center;
   }
 
   .work-content_bar {
