@@ -130,11 +130,11 @@ body {
   }
 
   .field-input {
-    @apply w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl focus:outline-none;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .field-btn {
-    @apply bg-black-500 px-5 py-2 min-h-12 rounded-lg shadow-black-200 shadow-2xl flex justify-center items-center text-lg text-white gap-3;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .field-btn_arrow {
