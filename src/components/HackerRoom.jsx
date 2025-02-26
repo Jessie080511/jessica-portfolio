@@ -22,7 +22,7 @@ export function HackerRoom(props) {
         <meshStandardMaterial color="#D6C8C8" /> {/* 桌子绿色 */}
       </mesh>
       <mesh geometry={nodes.table_table_mat_0_2.geometry}>
-        <meshStandardMaterial color="#C4C4C4" /> {/* 暖白色电脑 */}
+        <meshStandardMaterial color="#222222" /> {/* 暖白色电脑 */}
       </mesh>
       <mesh geometry={nodes.table_table_mat_0_3.geometry} material={materials.server_mat} />
       <mesh geometry={nodes.table_table_mat_0_4.geometry} material={materials.vhsPlayer_mat} />
@@ -30,7 +30,7 @@ export function HackerRoom(props) {
       <mesh geometry={nodes.table_table_mat_0_6.geometry} material={materials.mat_mat} />
       <mesh geometry={nodes.table_table_mat_0_7.geometry} material={materials.arm_mat} />
       <mesh geometry={nodes.table_table_mat_0_8.geometry}>
-        <meshStandardMaterial color="#B0A8A8" /> {/* 柔和灰粉色显示器 */}
+        <meshStandardMaterial color="#111111" /> {/* 柔和灰粉色显示器 */}
       </mesh>
       <mesh geometry={nodes.table_table_mat_0_9.geometry} material={materials.cables_mat} />
       <mesh geometry={nodes.table_table_mat_0_10.geometry} material={materials.props_mat} />
