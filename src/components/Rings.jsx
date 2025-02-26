@@ -49,7 +49,7 @@ const Rings = ({ position }) => {
         {Array.from({ length: 4 }, (_, index) => (
           <mesh key={index} ref={getRef}>
             <torusGeometry args={[(index + 1) * 0.5, 0.1]} />
-            <meshMatcapMaterial matcap={texture} color="E5E5E5" toneMapped={false} />
+            <meshStandardMaterial color="#F8E3A3" metalness={0.1} roughness={0.8} />
           </mesh>
         ))}
       </group>
