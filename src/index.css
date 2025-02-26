@@ -101,11 +101,11 @@ body {
   }
 
   .work-canvas {
-    @apply col-span-1 rounded-lg bg-black-200 border border-black-300;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .work-content {
-    @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .work-content_container {
@@ -113,11 +113,11 @@ body {
   }
 
   .work-content_logo {
-    @apply rounded-3xl w-16 h-16 p-2 bg-black-600;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .work-content_bar {
-    @apply flex-1 w-0.5 mt-4 h-full bg-black-300 group-hover:bg-black-500 group-last:hidden;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   /* contact section */
