@@ -21,8 +21,9 @@ const Target = (props) => {
   return (
     <mesh {...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} scale={1.5}>
       <primitive object={scene} />
+      <meshStandardMaterial color="#F4D27A" metalness={0.3} roughness={0.6} />
     </mesh>
   );
-};
+
 
 export default Target;
