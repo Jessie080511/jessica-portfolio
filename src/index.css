@@ -65,8 +65,12 @@ body {
     @apply grid grid-cols-3 gap-10 items-stretch;
   }
 
+  .grid-container > div {
+    min-width: 300px; /* 让每个模块的宽度更均匀 */
+  }
+
   .container {
-    @apply flex flex-col justify-between h-full min-h-[450px] bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-10;
+    @apply flex flex-col justify-between h-full p-10;
   }
 
   .flexible-section {
