@@ -61,8 +61,8 @@ body {
   }
 
   /* about section */
-  .grid-container {
-    @apply grid grid-cols-2 gap-20 bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-10;
+  .grid-container, .container {
+    @apply bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-20;
   }
 
   .grid-headtext {
