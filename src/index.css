@@ -59,62 +59,18 @@ body {
   }
 
   .grid-container {
-    @apply grid grid-cols-1 md:grid-cols-2 gap-6 items-center;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  .grid-container > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: auto;
-    min-height: 450px;
-    padding: 20px;
-    border-radius: 20px;
-    overflow: visible;
-  }
-
-  .profile-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  .profile-image {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 20px;
-    margin-bottom: 20px;
-  }
-
-  .profile-info {
-    width: 100%;
-    max-width: 600px;
-    text-align: center;
-  }
-
-  .grid-subtext {
-    text-align: center;
-    max-width: 90%;
-    word-wrap: break-word;
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 20px;
+    @apply w-full h-full border border-[#D8CACA] bg-[#E3D6D6] rounded-lg sm:p-7 p-4 flex flex-col gap-5;
   }
 
   .grid-headtext {
     @apply text-xl font-semibold mb-2 text-black font-generalsans;
   }
+  .grid-subtext {
+    @apply text-[#afb0b6] text-base font-generalsans;
+  }
 
-  .grid-container, .container {
-    @apply bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-6;
+  .copy-container {
+    @apply cursor-pointer flex justify-center items-center gap-2;
   }
 
   .arrow-btn {
