@@ -66,7 +66,7 @@ body {
     @apply text-xl font-semibold mb-2 text-black font-generalsans;
   }
   .grid-subtext {
-    @apply text-[#afb0b6] text-base font-generalsans;
+    @apply text-[#333] text-base font-generalsans;
   }
 
   .copy-container {
