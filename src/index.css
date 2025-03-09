@@ -62,15 +62,29 @@ body {
 
   /* about section */
   .grid-container {
-    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 items-stretch;
-    max-width: 1200px;
-    margin: 0 auto;
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 items-start;
   }
 
   .grid-container > div {
-    width: 100%;
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 450px; /* 确保所有卡片高度一致 */
   }
+
+  .grid-subtext {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 
   .grid-headtext {
     @apply text-xl font-semibold mb-2 text-black font-generalsans;
