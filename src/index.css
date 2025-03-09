@@ -39,7 +39,7 @@ body {
   }
 
   .text-gray_gradient {
-    @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#444] from-60% via-[#666] via-60% to-[#888] to-100% bg-clip-text text-transparent;
   }
 
   /* button component */
@@ -70,7 +70,7 @@ body {
   }
 
   .grid-subtext {
-    @apply text-[#afb0b6] text-base font-generalsans;
+    @apply text-gray-800; /* 让文本更深 */
   }
 
   .grid-container, .container {
