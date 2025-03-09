@@ -19,7 +19,7 @@ body {
   }
 
   .head-text {
-    @apply sm:text-4xl text-3xl font-semibold text-gray_gradient;
+    @apply bg-gradient-to-r from-[#222] via-[#444] to-[#666] bg-clip-text text-transparent font-bold sm:text-5xl text-4xl;
   }
 
   .nav-ul {
