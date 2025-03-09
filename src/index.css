@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #010103;
+  background-color: #E3D6D6;
   font-family: 'General Sans', sans-serif;
 }
 
@@ -19,7 +19,7 @@ body {
   }
 
   .head-text {
-    @apply sm:text-4xl text-3xl font-semibold text-gray_gradient;
+    @apply bg-gradient-to-r from-[#222] via-[#444] to-[#666] bg-clip-text text-transparent font-bold sm:text-5xl text-4xl;
   }
 
   .nav-ul {
@@ -31,20 +31,19 @@ body {
   }
 
   .nav-li_a {
-    @apply text-lg md:text-base hover:text-white transition-colors;
+    @apply text-gray-800 hover:text-black;
   }
 
   .nav-sidebar {
-    @apply absolute left-0 right-0 bg-black-200 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
+    @apply absolute left-0 right-0 bg-[#CFA9A3] backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
   }
 
   .text-gray_gradient {
-    @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#444] from-60% via-[#666] via-60% to-[#888] to-100% bg-clip-text text-transparent;
   }
 
-  /* button component */
   .btn {
-    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto;
+    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300 transition-all active:scale-95 text-white mx-auto;
   }
 
   .btn-ping {
@@ -55,29 +54,69 @@ body {
     @apply relative inline-flex rounded-full h-3 w-3 bg-green-500;
   }
 
-  /* hero section */
   .hero_tag {
     @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
   }
 
-  /* about section */
   .grid-container {
-    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 items-center;
+    max-width: 900px;
+    margin: 0 auto;
   }
 
-  .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white font-generalsans;
+  .grid-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    min-height: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: visible;
+  }
+
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  .profile-info {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
   }
 
   .grid-subtext {
-    @apply text-[#afb0b6] text-base font-generalsans;
+    text-align: center;
+    max-width: 90%;
+    word-wrap: break-word;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
   }
 
-  .copy-container {
-    @apply cursor-pointer flex justify-center items-center gap-2;
+  .grid-headtext {
+    @apply text-xl font-semibold mb-2 text-black font-generalsans;
   }
 
-  /* projects section  */
+  .grid-container, .container {
+    @apply bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-6;
+  }
+
   .arrow-btn {
     @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient;
   }
@@ -86,47 +125,36 @@ body {
     @apply w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
   }
 
-  /* clients section */
-  .client-container {
-    @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-12;
-  }
-
-  .client-review {
-    @apply rounded-lg md:p-10 p-5 col-span-1 bg-black-300 bg-opacity-50;
-  }
-
   .client-content {
     @apply flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5 mt-7;
   }
 
-  /*  work experience section */
   .work-container {
-    @apply grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .work-canvas {
-    @apply col-span-1 rounded-lg bg-black-200 border border-black-300;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .work-content {
-    @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .work-content_container {
-    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-black-300 rounded-lg sm:px-5 px-2.5;
+    @apply grid grid-cols-[auto_1fr] items-start gap-5 transition-all ease-in-out duration-500 cursor-pointer hover:bg-[#D8CACA] rounded-lg sm:px-5 px-2.5;
   }
 
   .work-content_logo {
-    @apply rounded-3xl w-16 h-16 p-2 bg-black-600;
+    @apply w-16 h-16 bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg flex justify-center items-center object-contain;
   }
 
   .work-content_bar {
-    @apply flex-1 w-0.5 mt-4 h-full bg-black-300 group-hover:bg-black-500 group-last:hidden;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg;
   }
 
-  /* contact section */
   .contact-container {
-    @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .field-label {
@@ -134,18 +162,17 @@ body {
   }
 
   .field-input {
-    @apply w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl focus:outline-none;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .field-btn {
-    @apply bg-black-500 px-5 py-2 min-h-12 rounded-lg shadow-black-200 shadow-2xl flex justify-center items-center text-lg text-white gap-3;
+    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
   }
 
   .field-btn_arrow {
     @apply w-2.5 h-2.5 object-contain invert brightness-0;
   }
 
-  /*  footer */
   .social-icon {
     @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
   }
