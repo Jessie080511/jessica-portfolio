@@ -62,7 +62,7 @@ body {
 
   /* about section */
   .grid-container {
-    @apply grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch;
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 items-start;
     max-width: 900px;
     margin: 0 auto;
   }
@@ -70,15 +70,16 @@ body {
   .grid-container > div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 380px;
-    overflow: hidden;
+    justify-content: stretch;
+    height: auto;
+    min-height: 400px;
+    overflow: visible;
   }
 
   .grid-subtext {
-    max-height: 150px;
-    overflow-y: auto;
+    overflow: visible;
   }
+
 
 
   .grid-headtext {
