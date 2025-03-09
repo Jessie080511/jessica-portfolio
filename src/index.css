@@ -61,9 +61,18 @@ body {
   }
 
   /* about section */
-  .grid-container, .container {
-    @apply bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-20;
+  .grid-container {
+    @apply grid grid-cols-3 gap-10 items-stretch;
   }
+
+  .container {
+    @apply flex flex-col justify-between h-full min-h-[450px] bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg p-10;
+  }
+
+  .flexible-section {
+    @apply flex flex-col justify-between h-full;
+  }
+
 
   .grid-headtext {
     @apply text-xl font-semibold mb-2 text-black font-generalsans;
