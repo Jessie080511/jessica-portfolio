@@ -62,7 +62,7 @@ body {
 
   /* about section */
   .grid-container {
-    @apply grid grid-cols-1 md:grid-cols-2 gap-6 items-center;
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch;
     max-width: 900px;
     margin: 0 auto;
   }
@@ -70,29 +70,15 @@ body {
   .grid-container > div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    min-height: 400px;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #111; /* 如果需要黑色背景 */
-    color: white; /* 让文字变亮 */
-  }
-
-  .profile-image {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 20px;
+    justify-content: space-between;
+    height: 380px;
+    overflow: hidden;
   }
 
   .grid-subtext {
-    overflow: visible;
-    text-align: center;
-    word-wrap: break-word;
-    max-width: 90%;
-  }
+    max-height: 150px;
+    overflow-y: auto;
+  }  
 
 
 
