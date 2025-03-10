@@ -69,17 +69,22 @@ HTML5/CSS3, REST API, Selenium, MySQL, PostgresQL, OpenAl api, Git, IntelliJ, VS
         </div>
 
         <div className="xl:col-span-2 xl:row-span-3">
-          <div className="grid-container">
-            <img src="/assets/passion.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
+          <div className="grid-container flex flex-col md:flex-row items-center md:items-start">
+            {/* 左侧图片 */}
+            <div className="w-full md:w-1/2">
+              <img src="/assets/passion.png" alt="grid-3" className="w-full h-full object-cover rounded-lg" />
+            </div>
 
-            <div>
+            {/* 右侧文字 */}
+            <div className="w-full md:w-1/2 px-5">
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                In my previous work experience, I developed a strong interest in code. After a few years of self-study, I studied for a master's degree in computer science and systematically mastered a lot of knowledge. Now I want to continue to delve deeper and apply what I have learned to work and life.
+                In my previous work experience, I developed a strong interest in code...
               </p>
             </div>
           </div>
         </div>
+
 
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
