@@ -59,7 +59,7 @@ body {
   }
 
   .grid-container {
-    @apply w-full h-full border border-[#D8CACA] bg-[#E3D6D6] rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply bg-[#E3D6D6] border-[#D8CACA] shadow-md rounded-lg px-4 py-4; /* 减小 padding */
   }
 
   .grid-headtext {
