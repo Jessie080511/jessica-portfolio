@@ -12,11 +12,16 @@ const DemoComputer = (props) => {
   const { nodes, materials, animations } = useGLTF('/models/computer.glb');
   const { actions } = useAnimations(animations, group);
 
-  const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/output.mp4');
+  const videoSrc = props.texture && props.texture.trim() !== '' ? props.texture : '/textures/project/output.mp4';
 
+  const txt = useVideoTexture(videoSrc, (texture) => {
+    console.log("✅ Texture loaded successfully:", videoSrc);
+  });
+
+  // Debug 输出错误情况
   useEffect(() => {
-    if (txt) {
-      txt.flipY = false;
+    if (!txt) {
+      console.error("❌ Video texture failed to load:", videoSrc);
     }
   }, [txt]);
 
