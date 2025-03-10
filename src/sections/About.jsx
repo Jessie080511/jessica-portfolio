@@ -89,8 +89,7 @@ const About = () => {
             <img
               src="assets/logos.png"
               alt="logos"
-              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
-            />
+              className="w-full h-auto object-contain rounded-lg" />
 
             <div className="space-y-2">
               <p className="grid-subtext text-center">Contact me</p>
