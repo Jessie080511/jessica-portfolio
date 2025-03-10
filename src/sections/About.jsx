@@ -87,8 +87,8 @@ const About = () => {
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
             <img
-              src="assets/logos.png"
-              alt="logos"
+              src="assets/logo.png"
+              alt="logo"
               className="w-full h-auto object-contain rounded-lg" />
 
             <div className="space-y-2">
