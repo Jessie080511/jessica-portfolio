@@ -88,7 +88,7 @@ const About = () => {
           <div className="grid-container">
             <img
               src="assets/logos.png"
-              alt="grid-4"
+              alt="logos"
               className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
             />
 
