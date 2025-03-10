@@ -79,7 +79,7 @@ HTML5/CSS3, REST API, Selenium, MySQL, PostgresQL, OpenAl api, Git, IntelliJ, VS
             <div className="w-full md:w-1/2 px-5">
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                In my previous work experience, I developed a strong interest in code. After a few years of self-study, I studied for a master's degree in computer science and systematically mastered a lot of knowledge. Now I want to continue to delve deeper and apply what I have learned to work and life.
+                In my previous work experience, I developed a strong interest in code. After a few years of self-study, I studied for a master degree in computer science and systematically mastered a lot of knowledge. Now I want to continue to delve deeper and apply what I have learned to work and life.
             </div>
           </div>
         </div>
