@@ -21,9 +21,13 @@ const DemoComputer = (props) => {
   // Debug 输出错误情况
   useEffect(() => {
     if (!txt) {
-      console.error("❌ Video texture failed to load:", videoSrc);
+      console.error("❌ Video texture failed to load:", props.texture);
+    } else {
+      console.log("✅ Video texture loaded successfully:", props.texture);
+      txt.flipY = false; // 解决倒置问题
     }
   }, [txt]);
+
 
   useGSAP(() => {
     gsap.from(group.current.rotation, {
