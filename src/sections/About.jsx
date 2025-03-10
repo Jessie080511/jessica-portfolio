@@ -84,26 +84,29 @@ const About = () => {
           </div>
         </div>
 
-        <div className="xl:col-span-1 xl:row-span-2 grid-container flex flex-col justify-center items-center h-auto">
-          {/* 图片部分 */}
-          <img 
-            src="/assets/logos.png" 
-            alt="logos" 
-            className="w-full max-h-[250px] object-contain rounded-lg"
-          />
+        {/* 修改后的 Contact 部分 */}
+        <div className="xl:col-span-1 xl:row-span-2">
+          <div className="grid-container h-full flex flex-col justify-center items-center gap-4">
+            {/* 图片部分 */}
+            <img 
+              src="/assets/logos.png" 
+              alt="logos" 
+              className="w-full max-h-[150px] object-contain rounded-lg"
+            />
 
-          {/* 文字部分 */}
-          <p className="grid-headtext mt-4">Contact me</p>
+            {/* 文字部分 */}
+            <p className="grid-headtext">Contact me</p>
 
-          {/* 复制邮箱的功能 */}
-          <div 
-            className="copy-container flex items-center gap-2 cursor-pointer" 
-            onClick={handleCopy}
-          >
-            <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt="copy-icon" className="w-5 h-5" />
-            <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-black">
-              yanjie080511@gmail.com
-            </p>
+            {/* 复制邮箱的功能 */}
+            <div 
+              className="copy-container flex items-center gap-2 cursor-pointer" 
+              onClick={handleCopy}
+            >
+              <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt="copy-icon" className="w-5 h-5" />
+              <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-black">
+                yanjie080511@gmail.com
+              </p>
+            </div>
           </div>
         </div>
       </div>
