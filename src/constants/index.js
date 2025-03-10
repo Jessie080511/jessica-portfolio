@@ -46,7 +46,7 @@ export const myProjects = [
     subdesc:
       'Built with React for dynamic UI, Redux Toolkit for efficient state management, and Tailwind CSS for responsive styling. Utilized MongoDB for flexible data storage and DeepSeek LLM to power the AI chatbot, enabling accurate, context-aware interactions.',
     href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
+    texture: '/textures/project/output(1).mp4',
     logo: '/assets/Nail.png',
     logoStyle: {
       backgroundColor: '#2A1816',
