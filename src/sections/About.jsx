@@ -70,7 +70,7 @@ HTML5/CSS3, REST API, Selenium, MySQL, PostgresQL, OpenAl api, Git, IntelliJ, VS
 
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
-            <img src="passion.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
+            <img src="/src/assets/passion.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
