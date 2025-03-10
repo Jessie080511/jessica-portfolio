@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Globe from 'react-globe.gl';
-
 import Button from '../components/Button.jsx';
 
 const About = () => {
@@ -39,7 +38,7 @@ const About = () => {
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
                 I am good at applying various technologies, including React.js, Vite, Node.js,
-HTML5/CSS3, REST API, Selenium, MySQL, PostgresQL, OpenAl api, Git, IntelliJ, VSCode, AWS, Google Cloud Platform.
+                HTML5/CSS3, REST API, Selenium, MySQL, PostgresQL, OpenAl api, Git, IntelliJ, VSCode, AWS, Google Cloud Platform.
               </p>
             </div>
           </div>
@@ -69,14 +68,14 @@ HTML5/CSS3, REST API, Selenium, MySQL, PostgresQL, OpenAl api, Git, IntelliJ, VS
         </div>
 
         <div className="xl:col-span-2 xl:row-span-3">
-          <div className="grid-container flex flex-col md:flex-row items-center md:items-stretch">
+          <div className="grid-container flex flex-col md:flex-row items-center">
             {/* 左侧图片 */}
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 flex items-center">
               <img src="/assets/passion.png" alt="grid-3" className="w-full h-auto object-cover rounded-lg" />
             </div>
 
-            {/* 右侧文字 - 这里要居中 */}
-            <div className="w-full md:w-1/2 flex flex-col justify-center px-5 h-full">
+            {/* 右侧文字 - 垂直居中 */}
+            <div className="w-full md:w-1/2 flex flex-col justify-center px-5">
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
                 In my previous work experience, I developed a strong interest in code. After a few years of self-study, I studied for a master degree in computer science and systematically mastered a lot of knowledge. Now I want to continue to delve deeper and apply what I have learned to work and life.
@@ -84,8 +83,6 @@ HTML5/CSS3, REST API, Selenium, MySQL, PostgresQL, OpenAl api, Git, IntelliJ, VS
             </div>
           </div>
         </div>
-
-
 
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
