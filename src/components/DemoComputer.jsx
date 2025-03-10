@@ -12,7 +12,7 @@ const DemoComputer = (props) => {
   const { nodes, materials, animations } = useGLTF('/models/computer.glb');
   const { actions } = useAnimations(animations, group);
 
-  const videoSrc = props.texture && props.texture.trim() !== '' ? props.texture : '/textures/project/output.mp4';
+  const videoSrc = props.texture && props.texture.trim() !== '' ? props.texture : '/textures/project/output2.mp4';
 
   const txt = useVideoTexture(videoSrc, (texture) => {
     console.log("✅ Texture loaded successfully:", videoSrc);
