@@ -9,7 +9,7 @@ const Clients = () => {
         {clientReviews.map((item) => (
           <div key={`review-${item.id}`} className="client-review">
             <div>
-              <p className="text-black font-light">{item.review}</p>
+              <p className="text-gray-800 font-light">{item.review}</p>
 
               <div className="client-content">
                 <div className="flex gap-3">
