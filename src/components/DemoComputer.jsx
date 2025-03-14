@@ -28,7 +28,43 @@ const DemoComputer = (props) => {
     }
   }, [txt]);
 
+  useEffect(() => {
+    if (materials) {
+      console.log("✅ Materials Loaded:", materials);
 
+      // **修改电脑机身颜色**
+      if (materials.computer) {
+        materials.computer.color.set("#EAD7C4"); // 米色
+      }
+
+      // **修改底座**
+      if (materials.base__0) {
+        materials.base__0.color.set("#D5BFA3"); // 奶茶色
+      }
+
+      // **修改其他部分**
+      if (materials.Material_36) {
+        materials.Material_36.color.set("#C4A484"); // 浅卡其色
+      }
+
+      if (materials.Material_35) {
+        materials.Material_35.color.set("#D7C0AE"); // 奶茶色
+      }
+
+      if (materials.Material_34) {
+        materials.Material_34.color.set("#E8D3C0"); // 浅奶茶色
+      }
+
+      if (materials.keys) {
+        materials.keys.color.set("#FFFFFF"); // 按键改成白色
+      }
+
+      if (materials.keys2) {
+        materials.keys2.color.set("#F0E6D2"); // 按键阴影更淡
+      }
+    }
+  }, [materials]);
+  
   useGSAP(() => {
     gsap.from(group.current.rotation, {
       y: Math.PI / 2,
