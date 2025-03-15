@@ -18,7 +18,7 @@ const Education = () => {
             </div>
 
             {/* **大学阶段的介绍** */}
-            <p className="text-gray-800 font-light mt-2">{item.description}</p>
+            <p className="text-black-800 font-light mt-2">{item.description}</p>
           </div>
         ))}
       </div>
