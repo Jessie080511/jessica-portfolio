@@ -25,7 +25,8 @@ export const educationData = [
   {
     id: 1,
     name: 'Southwest University',
-    degree: 'Bachelor of Science in Accountancy  80/100',
+    degree: 'Bachelor of Science in Accountancy  
+             80/100',
     description:
       'During my undergraduate studies, I studied finance, tax law, and statistics, and self-learned programming skills like Python and HTML. I also obtained a computer-related certificate and participated in an internship in a data processing position.',
     img: '/assets/Southwest_University.png',
@@ -33,7 +34,8 @@ export const educationData = [
   {
     id: 2,
     name: 'San Francisco Bay University',
-    degree: 'Master of Computer Science  3.51/4.0',
+    degree: 'Master of Computer Science  
+             3.51/4.0',
     description:
       'During my postgraduate studies, I focused on Cloud Security, Software Testing, Database, Mathematics, Linear algebra, Statistics, Algorithms and other courses, and participated in two projects.',
     img: '/assets/SFBU.png',
