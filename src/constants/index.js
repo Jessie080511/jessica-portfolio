@@ -21,21 +21,22 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
+export const educationData = [
   {
     id: 1,
     name: 'Southwest University',
-    position: 'Bachelor of Science in Accountancy',
-    img: 'assets/Southwest_University.png',
-    review:'During my undergraduate studies, I studied finance, financial management, tax law, statistics, and other courses. I also taught myself computer knowledge such as linear algebra, python, calculus, and HTML. Finally, I took a minor in law and learned some international law knowledge.'
+    degree: 'Bachelor of Science in Accountancy',
+    description:
+      'During my undergraduate studies, I studied finance, tax law, and statistics, and self-learned programming skills like Python and HTML.',
+    img: '/assets/swuniversity.png',
   },
   {
     id: 2,
     name: 'San Francisco Bay University',
-    position: 'Master of Computer Science',
-    img: 'assets/SFBU.png',
-    review:
-      'During my postgraduate studies, I took a comprehensive range of computer courses, including Software Quality Assurance and Test Automation, Object Oriented Design in Python, Database Technologies, Cloud Security, Algorithms, Mathematics and Statistics for Data Science, Data Modeling and Implementation Techniques.',
+    degree: 'Master of Computer Science',
+    description:
+      'During my postgraduate studies, I focused on cloud security, software testing, database technologies, and machine learning.',
+    img: '/assets/sfbu.png',
   },
 ];
 
