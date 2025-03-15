@@ -28,7 +28,7 @@ export const educationData = [
     degree: 'Bachelor of Science in Accountancy',
     description:
       'During my undergraduate studies, I studied finance, tax law, and statistics, and self-learned programming skills like Python and HTML.',
-    img: '/assets/swuniversity.png',
+    img: '/assets/southwest_University.png',
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const educationData = [
     degree: 'Master of Computer Science',
     description:
       'During my postgraduate studies, I focused on cloud security, software testing, database technologies, and machine learning.',
-    img: '/assets/sfbu.png',
+    img: '/assets/SFBU.png',
   },
 ];
 
