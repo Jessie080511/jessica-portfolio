@@ -11,7 +11,7 @@ const WorkExperience = () => {
 
   return (
     <section className="c-space my-20" id="work">
-      <div className="w-full text-white-600">
+      <div className="w-full text-black-600">
         <p className="head-text text-black">My Work Experience</p>
 
         <div className="work-container">
@@ -50,7 +50,7 @@ const WorkExperience = () => {
                     <p className="text-sm mb-5">
                       {item.pos} -- <span>{item.duration}</span>
                     </p>
-                    <p className="group-hover:text-white transition-all ease-in-out duration-500">{item.title}</p>
+                    <p className="group-hover:text-black transition-all ease-in-out duration-500">{item.title}</p>
                   </div>
                 </div>
               ))}
