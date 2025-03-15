@@ -46,7 +46,7 @@ const WorkExperience = () => {
                   </div>
 
                   <div className="sm:p-5 px-2.5 py-5">
-                    <p className="font-bold text-grey-800">{item.name}</p>
+                    <p className="font-bold text-black-800">{item.name}</p>
                     <p className="text-sm mb-5">
                       {item.pos} -- <span>{item.duration}</span>
                     </p>
