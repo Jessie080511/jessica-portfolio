@@ -110,8 +110,9 @@ body {
   }
 
   .contact-container {
-    @apply bg-[#E3D6D6] border-[#DED1D1] shadow-md rounded-lg p-6;
+    background-color: #E3D6D6 !important; /* 强制使用粉色背景 */
   }
+
 
   .field-label {
     @apply text-lg text-white-600;
