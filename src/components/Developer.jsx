@@ -123,8 +123,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
 
 useGLTF.preload('/models/animations/model.glb'); // 预加载GLB模型
 
-export default Developer;
-
 
 export default Developer;
 
